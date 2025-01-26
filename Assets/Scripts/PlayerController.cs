@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 10;
+    public float health = 100f;
     private Rigidbody playerRb;
 
     public GameObject playerCamera;
